@@ -3,11 +3,11 @@ import java.util.*;
 public class PowerCalculation {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the b number: ");
-        double b = sc.nextDouble();
-        System.out.print("Enter the expo number: ");
-        double expo = sc.nextDouble();
-        double res = Math.pow(b, expo);
-        System.out.println(res);
+        System.out.print("Enter the base number: ");
+        double base = sc.nextDouble();
+        System.out.print("Enter the exponent number: ");
+        double exponent = sc.nextDouble();
+        double ans = Math.pow(base, exponent);
+        System.out.println(ans);
     }    
 }

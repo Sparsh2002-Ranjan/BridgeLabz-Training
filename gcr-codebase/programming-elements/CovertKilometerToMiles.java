@@ -4,7 +4,7 @@ public class CovertKilometerToMiles {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter distance in kilometers: ");
         double km = sc.nextDouble();
-        double mil = km * 1.6;
-        System.out.println(mil);
+        double miles = km * 1.6;
+        System.out.println(miles);
     }
 }

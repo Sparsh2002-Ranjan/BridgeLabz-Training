@@ -5,6 +5,6 @@ public class AverageMarks {
         int maths=94;
         int phy=95;
         int chem=96;
-        System.out.println((maths+phy+chem)/3);
+        System.out.println((maths+phy+chem)/3);  //average is calculated
     }
 }
