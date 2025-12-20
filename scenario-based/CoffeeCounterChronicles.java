@@ -4,7 +4,7 @@ public class CoffeeCounterChronicles {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Please choose the coffee and write the number of the coffee you want to order:");
-        System.out.println("1. Cold Coffee - Rs70");
+        System.out.println("1. Cold Coffee - Rs-70");
         System.out.println("2. Cappuccino - Rs85");
         System.out.println("3. Latte - Rs90");
         System.out.println("4. Mocha - Rs80");
