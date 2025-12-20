@@ -5,7 +5,6 @@ public class MultiplesBelow100While {
         Scanner sc=new Scanner(System.in);
         int num=sc.nextInt();
         if (num>0 && num<100) {
-            System.out.println("Multiples of " + num + " below 100 are ");
             int count=100;
             while (count>=1) {
                 if (count%num == 0) {
