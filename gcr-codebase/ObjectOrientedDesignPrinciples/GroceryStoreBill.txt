@@ -1,0 +1,25 @@
+## Class Diagram ## ->>
+
+     Customer -> product name
+     Customer -> product price
+
+     Product -> product name
+     Product -> product price
+
+     BillGenerator -> generates total customer bill
+
+
+
+
+## Object Diagram ## ->>
+
+     customer -> Alice
+     product -> Apple(50 Rs), Mango(60 Rs)
+     BillGenerator -> 110Rs
+
+
+
+
+## Sequence Diagram ## ->>
+     
+     customer -> ask for the bill -> BillGenerator -> generates bill for customer -> customer -> get bill and pay the amount

@@ -1,0 +1,43 @@
+##### Class Diagram->>
+      
+      Student
+        |
+    |        |
+subject     Student
+name         name
+
+
+
+
+     subject
+        |
+    |        |
+subject    subject  
+name        marks
+
+
+
+        GradeCalculator
+            |
+    calculate student marks
+
+
+
+
+
+##### Object Diagram->>
+      student->  
+             student name- john
+             subject-maths
+      subject->
+             subject name-maths
+             score- 90
+      grade->
+             john maths grade- A
+
+
+
+
+##### Sequence Diagram->>
+
+        Student -> request to check his grade -> GradeCalculator -> calculate grade and send back result -> student -> can see their grades
