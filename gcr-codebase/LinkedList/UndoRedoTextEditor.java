@@ -1,4 +1,5 @@
 // Doubly Linked List: Undo/Redo Functionality for Text Editor
+import java.util.*;
 
 class TextState {
     String content;

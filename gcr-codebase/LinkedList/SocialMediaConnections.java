@@ -1,4 +1,5 @@
 // Singly Linked List: Social Media Friend Connections
+import java.util.*;
 
 import java.util.*;
 
