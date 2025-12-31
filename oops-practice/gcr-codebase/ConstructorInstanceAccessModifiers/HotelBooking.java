@@ -1,6 +1,5 @@
 import java.util.*;
 public class HotelBooking {
-
     private String guestname;
     private String roomtype;
     private int nights;

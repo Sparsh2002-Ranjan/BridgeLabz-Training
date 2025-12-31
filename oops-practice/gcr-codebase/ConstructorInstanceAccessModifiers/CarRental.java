@@ -1,4 +1,5 @@
 public class CarRental {
+    
     String customerName;
     String carModel;
     int rentalDays;

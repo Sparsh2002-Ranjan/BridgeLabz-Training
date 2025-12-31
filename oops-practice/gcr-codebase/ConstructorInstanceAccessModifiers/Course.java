@@ -1,5 +1,6 @@
 public class Course {
     String courseName;
+    
     int duration; 
     double fee;
     static String instituteName = "Tech Academy"; 

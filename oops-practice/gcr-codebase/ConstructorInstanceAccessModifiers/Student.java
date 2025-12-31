@@ -1,4 +1,5 @@
 public class Student {
+    
     public int rollNumber;
     protected String name;
     private double CGPA;

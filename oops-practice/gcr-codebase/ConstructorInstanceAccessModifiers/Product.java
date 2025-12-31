@@ -1,4 +1,5 @@
 public class Product {
+    
     String productName;
     double price;
     static int totalProducts = 0; 

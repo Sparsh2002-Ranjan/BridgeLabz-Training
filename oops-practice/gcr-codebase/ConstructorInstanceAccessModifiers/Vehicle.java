@@ -1,4 +1,5 @@
 public class Vehicle {
+    
     String ownerName;
     String vehicleType;
     static double registrationFee = 5000.0; 

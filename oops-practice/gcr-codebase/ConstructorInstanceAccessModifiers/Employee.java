@@ -1,4 +1,5 @@
 public class Employee {
+    
     public int employeeID;
     protected String department;
     private double salary;
