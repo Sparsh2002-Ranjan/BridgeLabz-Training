@@ -1,4 +1,5 @@
 public class MobilePhone {
+	
 	String brand;
 	String model;
 	double price;

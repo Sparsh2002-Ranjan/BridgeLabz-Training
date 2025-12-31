@@ -1,4 +1,5 @@
 public class Items {
+	
 	String[] itemCode;
 	String[] itemName;
 	double[] price;

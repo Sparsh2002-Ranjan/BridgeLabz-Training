@@ -1,4 +1,5 @@
 public class PalindromeChecker {
+	
 	//Attribute
 	String text;
 	
