@@ -1,4 +1,3 @@
-package stack_problems;
 import java.util.*;
 
 class PetrolPump {

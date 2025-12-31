@@ -1,5 +1,4 @@
-package stack_problems;
-import java.util.Stack;
+import java.util.*;
 
 public class StockSpan {
     public static int[] calculateSpan(int[] prices) {

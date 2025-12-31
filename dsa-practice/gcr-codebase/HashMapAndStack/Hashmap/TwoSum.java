@@ -1,4 +1,3 @@
-package hashmap_problems;
 import java.util.*;
 
 public class TwoSum {

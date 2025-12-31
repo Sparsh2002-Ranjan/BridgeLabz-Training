@@ -1,4 +1,4 @@
-package hashmap_problems;
+
 import java.util.*;
 
 public class CheckPairWithSum {

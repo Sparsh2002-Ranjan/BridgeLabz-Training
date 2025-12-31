@@ -1,6 +1,5 @@
-package hashmap_problems;
 import java.util.*;
-
+ 
 class Node {
     int key, value;
     Node next;
