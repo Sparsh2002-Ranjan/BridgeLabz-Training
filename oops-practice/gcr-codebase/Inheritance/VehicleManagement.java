@@ -1,4 +1,5 @@
 interface Refuelable {
+    
     void refuel();
 }
 

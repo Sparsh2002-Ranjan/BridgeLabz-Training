@@ -1,4 +1,5 @@
 interface Worker {
+    
     void performDuties();
 }
 

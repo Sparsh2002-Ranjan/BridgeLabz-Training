@@ -1,4 +1,5 @@
 class Course {
+    
     String courseName;
     int duration; // in weeks
 
