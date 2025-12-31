@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Student {
     String name;
     ArrayList<Course> courses;

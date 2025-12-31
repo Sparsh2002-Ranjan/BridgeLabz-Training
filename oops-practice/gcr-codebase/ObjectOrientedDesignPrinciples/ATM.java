@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Bank {
     private String bankName;
     private ArrayList<Account> accounts;
