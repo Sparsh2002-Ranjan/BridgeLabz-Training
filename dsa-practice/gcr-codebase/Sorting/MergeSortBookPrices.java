@@ -1,4 +1,5 @@
 public class MergeSortBookPrices {
+    
     public static void mergeSort(int[] arr, int left, int right) {
         if (left < right) {
             int mid = (left + right) / 2;

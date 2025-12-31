@@ -1,4 +1,5 @@
 public class CountingSortStudentAges {
+    
     public static void countingSort(int[] arr, int maxAge) {
         int[] count = new int[maxAge + 1];
         for (int age : arr)

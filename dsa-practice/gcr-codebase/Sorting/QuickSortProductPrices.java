@@ -1,4 +1,5 @@
 public class QuickSortProductPrices {
+    
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
             int pi = partition(arr, low, high);
