@@ -1,4 +1,3 @@
-// Singly Linked List: Student Record Management
 import java.util.*;
 
 class Student {

@@ -1,4 +1,3 @@
-// Circular Linked List: Round Robin Scheduling Algorithm
 import java.util.*;
 
 class Process {

@@ -1,4 +1,3 @@
-// Doubly Linked List: Library Management System
 import java.util.*;
 
 class Book {
