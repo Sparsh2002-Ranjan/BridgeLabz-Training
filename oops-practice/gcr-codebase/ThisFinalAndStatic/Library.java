@@ -1,4 +1,5 @@
 class Book {
+    
    // Static variable shared across all instances
    private static String libraryName;
    // Instance variables

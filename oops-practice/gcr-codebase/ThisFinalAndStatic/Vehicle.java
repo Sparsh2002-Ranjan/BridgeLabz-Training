@@ -1,4 +1,5 @@
 public class Vehicle {
+    
    // Static variable shared by all vehicles
    private static double registrationFee = 100.0; // Default registration fee
    // Instance variables

@@ -1,4 +1,5 @@
 public class Product {
+    
    // Static variable shared by all products
    private static double discount = 0.0;
    // Instance variables

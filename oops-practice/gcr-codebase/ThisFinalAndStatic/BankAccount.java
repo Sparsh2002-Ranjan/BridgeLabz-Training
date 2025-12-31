@@ -1,5 +1,5 @@
 public class BankAccount {
-  
+
    // Static variable shared across all accounts
    private static String bankName = "State bank of India";
    private static int totalAccounts = 0;

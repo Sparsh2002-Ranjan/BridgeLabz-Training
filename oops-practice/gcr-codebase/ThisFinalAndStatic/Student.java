@@ -1,4 +1,5 @@
 public class Student {
+    
    // Static variable shared across all instances
    private static String universityName;
    private static int totalStudents = 0;

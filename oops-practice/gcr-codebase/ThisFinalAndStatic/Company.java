@@ -1,19 +1,16 @@
 public class Company {
-   // Static variable shared by all employees
+
    private static String companyName;
    private static int totalEmployees = 0;
-   // Instance variables
    private String name;
    private final int id; // Final variable to ensure the employee ID cannot be modified
    private String designation;
-   // Constructor to initialize name, id, and designation
    public Company(String name, int id, String designation) {
        this.name = name;
        this.id = id;
        this.designation = designation;
        totalEmployees++;
    }
-   // Static method to set the company name
    public static void setCompanyName(String name) {
        companyName = name;
    }

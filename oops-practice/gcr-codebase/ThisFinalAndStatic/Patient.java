@@ -1,4 +1,5 @@
 public class Patient {
+    
    // Static variable shared among all patients
    private static String hospitalName;
    private static int totalPatients = 0;
