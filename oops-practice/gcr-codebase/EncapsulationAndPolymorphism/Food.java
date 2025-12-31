@@ -1,5 +1,4 @@
 import java.util.*;
-
 abstract class FoodItem {
     private String itemName;
     private double price;

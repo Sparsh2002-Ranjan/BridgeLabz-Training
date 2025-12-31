@@ -1,5 +1,4 @@
 import java.util.*;
-
 abstract class Product {
     private int productId;
     private String name;

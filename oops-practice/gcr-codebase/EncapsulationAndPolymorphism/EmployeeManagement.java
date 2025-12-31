@@ -1,5 +1,4 @@
 import java.util.*;
-
 abstract class Employee {
     private int employeeId;
     private String name;

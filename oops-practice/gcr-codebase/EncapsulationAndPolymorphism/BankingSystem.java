@@ -1,5 +1,4 @@
 import java.util.*;
-
 abstract class BankAccount {
     private String accountNumber;
     private String holderName;

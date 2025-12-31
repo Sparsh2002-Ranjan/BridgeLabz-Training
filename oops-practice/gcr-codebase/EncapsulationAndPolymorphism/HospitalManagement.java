@@ -1,5 +1,4 @@
 import java.util.*;
-
 abstract class Patient {
     private String patientId;
     private String name;

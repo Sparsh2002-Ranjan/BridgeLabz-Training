@@ -1,5 +1,4 @@
 import java.util.*;
-
 abstract class Vehicle {
     private String vehicleNumber;
     private String type;
