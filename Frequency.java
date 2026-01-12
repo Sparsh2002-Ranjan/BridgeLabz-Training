@@ -5,8 +5,8 @@ public class Frequency{
         int[] arr=new int[26];
         String st=sc.nextLine();
         for(int i=0;i<st.length();i++){
-            int a=st.charAt(i)-a;
-            arr[i]=arr[i]+1;
+            int a=st.charAt(i)-'a';
+            arr[a]=arr[a]+1;
         }
     
         for(int i=0;i<26;i++){
