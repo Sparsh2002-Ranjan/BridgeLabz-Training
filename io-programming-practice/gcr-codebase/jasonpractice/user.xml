@@ -1,0 +1,13 @@
+<ObjectNode>
+  <id>1</id>
+  <name>Alice</name>
+  <age>22</age>
+  <email>alice@example.com</email>
+  <skills>Java</skills>
+  <skills>Spring</skills>
+  <skills>SQL</skills>
+  <address>
+    <city>Delhi</city>
+    <zip>110001</zip>
+  </address>
+</ObjectNode>
