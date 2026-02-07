@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Program
+class Main
 {
     public static String CleanseAndInvert(String input)
     {
