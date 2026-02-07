@@ -32,7 +32,7 @@ public class BrickTransport extends GoodTransport {
 
     @Override
     public float calculateTotalCharge() {
-        int rate = this.getTransportRating(); // use transport rating
+        int rate = this.getTransportRating(); 
         float price = this.getBrickQuantity() * this.getBrickPrice();
         float tax = price * 0.3f;
         float discount = 0;

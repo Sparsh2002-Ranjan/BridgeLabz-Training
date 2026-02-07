@@ -2,11 +2,8 @@ import java.util.regex.Pattern;
 
 public class TransportUtility {
 
-    // -------------------------------
-    // Parse details and return GoodTransport object
-    // -------------------------------
     public GoodTransport parseDetails(String input) {
-        String[] parts = input.split(":");  // Colon separated
+        String[] parts = input.split(":");  
 
         if (parts.length < 7) {
             System.out.println("Invalid input format");
@@ -32,7 +29,6 @@ public class TransportUtility {
                     brickSize, brickQuantity, brickPrice);
 
         } else if (transportType.equalsIgnoreCase("TimberTransport")) {
-            // For TimberTransport input: RTS456B:12/8/21:4:TimberTransport:10:2:Premium:500
             if (parts.length < 8) {
                 System.out.println("Invalid input format for TimberTransport");
                 return null;
@@ -45,14 +41,11 @@ public class TransportUtility {
             return new TimberTransport(transportId, transportDate, transportRating,
                     timberLength, timberRadius, timberType, timberPrice);
         } else {
-            System.out.println("Unknown transport type: " + transportType);
+            System.out.println("Unknown transport type " + transportType);
             return null;
         }
     }
 
-    // -------------------------------
-    // Validate transportId
-    // -------------------------------
     public boolean validateTransportId(String transportId) {
         String pattern = "RTS[0-9]{3}[A-Z]";
         if (Pattern.matches(pattern, transportId)) {
@@ -63,9 +56,6 @@ public class TransportUtility {
         }
     }
 
-    // -------------------------------
-    // Identify the type of GoodTransport object
-    // -------------------------------
     public String findObjectType(GoodTransport goodsTransport) {
         if (goodsTransport instanceof BrickTransport) {
             return "BrickTransport";
