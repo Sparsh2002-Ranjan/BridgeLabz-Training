@@ -12,7 +12,6 @@ class Main
             if (!Character.isLetter(c))
                 return "";
         }
-
         input = input.toLowerCase();
         StringBuilder filtered = new StringBuilder();
 
